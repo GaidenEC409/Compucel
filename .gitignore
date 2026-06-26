@@ -1,0 +1,17 @@
+# Dependencias
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Variables de entorno — NUNCA subir al repo
+.env
+server/.env
+client/.env
+
+# Build del frontend
+dist/
+client/dist/
+
+# Logs
+*.log
+npm-debug.log*
